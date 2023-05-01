@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: #eff3f6;
+    font-family: fangsong;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-flow: revert;
+    margin: 10% 30%;
+    background: white;
+    height: auto;
+    filter: drop-shadow(2px 4px 6px lightgray);
+}
+
+.div-wrap {
+    text-align: center;
+    margin-top: inherit;
+    margin: 50px 0px;
+}
+
+input#input-date {
+    width: 350px;
+    padding: 5px;
+    margin: 15px 0px 15px 15px;
+}
+
+input#input-date:active, input#input-date:visited, input#input-date:focus  {
+
+    border: solid lightskyblue;
+    background: #a5d3f6;
+}
+input#submit-date {
+    width: 85px;
+    padding: 7px;
+    border: none;
+    margin-right: 5px;
+    background: #ff719f;
+}
+
+input#submit-date:hover{
+    background: #a5d3f6;
+}
+
+@media only screen and (max-width: 1181px){
+    input#submit-date {
+        width: 90%;
+        background: #ff719f;
+        margin: 9px 28px;
+    }
+}
+  
+  @media only screen and (max-width: 975px) {
+    
+    input#submit-todos {
+        width: 250px;
+        background: #ff719f;
+    }
+    input#input-todos {
+        width: 250px;
+    }
+
+    .container {
+        margin: 10% 20%;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 700px) {
+
+    .container {
+      
+        margin: 10% 10%;
+       
+    }
+
+    input#submit-date {
+        width: 75%;
+        margin: 10px 50px;
+    }
+
+    input#input-date {
+        width: 200px;
+        margin: 15px 0px 15px 0px !important;
+    }
+}
+    
+  @media only screen and (max-width: 370px) {
+
+    .container {
+      
+        margin: 10% 1%;
+       
+    }
+
+    h1.h1-todos {
+        font-size: 20px;
+    }
+}
+    
